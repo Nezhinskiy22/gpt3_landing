@@ -8,6 +8,7 @@ import CTA from "./components/cta/CTA";
 import Footer from "./containers/footer/Footer";
 import Brand from "./components/brand/Brand";
 import "./App.css";
+import Features from "./containers/features/Features";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT3 />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
